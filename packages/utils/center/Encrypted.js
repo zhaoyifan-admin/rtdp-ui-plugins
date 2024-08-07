@@ -1,6 +1,6 @@
 /** 数据加密 */
 import {dec_to_hex, PrefixTwoZero, PrefixZero} from "./index.js";
-
+  // 22222
 export function encryptionData(data) {
     if (data != "[object object]") {
         /**对应前端文件结构*/
