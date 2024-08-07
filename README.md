@@ -1,22 +1,22 @@
-# tool-plugins
+# rtdp-ui-plugins
 
 *目前共有 `12` 个常用工具函数，并且持续探索更新中...！*<br/>
 *开箱即用！*
 
 ## Document & Online preview
 
-[Tool Plugins](https://zhaoyifan-admin.github.io/tool-plugins/)
+[Tool Plugins](https://zhaoyifan-admin.github.io/rtdp-ui-plugins/)
 
 ## Install
 
 ```bash
-npm install tool-plugins
+npm install rtdp-ui-plugins
 # or
-pnpm add tool-plugins
+pnpm add rtdp-ui-plugins
 # or
-yarn add tool-plugins
+yarn add rtdp-ui-plugins
 # or
-bun add tool-plugins
+bun add rtdp-ui-plugins
 ```
 
 ## Use Components
@@ -30,7 +30,7 @@ bun add tool-plugins
 ## Use CDN
 
 ```html
-<script src="https://unpkg.com/tool-plugins@latest"></script>
+<script src="https://unpkg.com/rtdp-ui-plugins@latest"></script>
 ```
 
 ## Project
@@ -38,13 +38,13 @@ bun add tool-plugins
 - Get the project code
 
 ```sh
-git clone https://github.com/zhaoyifan-admin/tool-plugins.git
+git clone https://github.com/zhaoyifan-admin/rtdp-ui-plugins.git
 ```
 
 - Install dependencies
 
 ```sh
-cd tool-plugins
+cd rtdp-ui-plugins
 
 pnpm i
 ```

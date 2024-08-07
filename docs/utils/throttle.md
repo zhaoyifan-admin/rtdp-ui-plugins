@@ -30,7 +30,7 @@ function throttle (fn: Function, delay = 300): any {
 
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
-import { throttle, useEventListener } from 'tool-plugins'
+import { throttle, useEventListener } from 'rtdp-ui-plugins'
 
 const scrollTop = ref(0)
 useEventListener(window, 'scroll', throttle(showPosition, 100))
@@ -46,7 +46,7 @@ function showPosition () {
 ```vue
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
-import { throttle, useEventListener } from 'tool-plugins'
+import { throttle, useEventListener } from 'rtdp-ui-plugins'
 
 const scrollTop = ref(0)
 useEventListener(window, 'scroll', throttle(showPosition, 100))

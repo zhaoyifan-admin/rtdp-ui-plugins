@@ -26,7 +26,7 @@ import {
   gps84_To_bd09,
   bd09_To_gps84,
   gcj02_To_Bd09
-} from 'tool-plugins'
+} from 'rtdp-ui-plugins'
 </script>
 ```
 

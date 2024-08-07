@@ -70,7 +70,7 @@ export {
 //     */
 //     components.forEach(component => app.component(component.__name as string, component))
 // }
-// const ToolPlugins = {
+// const rtdpUiPlugins = {
 //     install,
 // }
-// export default ToolPlugins
+// export default rtdpUiPlugins

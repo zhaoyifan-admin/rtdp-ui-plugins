@@ -1,5 +1,5 @@
 {
-  "name": "tool-plugins",
+  "name": "rtdp-ui-plugins",
   "version": "1.0.71",
   "private": false,
   "type": "module",
@@ -8,16 +8,16 @@
     "package.json",
     "README.md"
   ],
-  "main": "./dist/tool-plugins.umd.cjs",
-  "module": "./dist/tool-plugins.js",
-  "browser": "./dist/tool-plugins.js",
-  "unpkg": "dist/tool-plugins.iife.js",
+  "main": "./dist/rtdp-ui-plugins.umd.cjs",
+  "module": "./dist/rtdp-ui-plugins.js",
+  "browser": "./dist/rtdp-ui-plugins.js",
+  "unpkg": "dist/rtdp-ui-plugins.iife.js",
   "exports": {
     "./dist/style.css": "./dist/style.css",
     "./css": "./dist/style.css",
     ".": {
-      "import": "./dist/tool-plugins.js",
-      "require": "./dist/tool-plugins.umd.cjs"
+      "import": "./dist/rtdp-ui-plugins.js",
+      "require": "./dist/rtdp-ui-plugins.umd.cjs"
     }
   },
   "scripts": {
@@ -49,7 +49,6 @@
     "qrcode": "^1.5.3",
     "sass": "^1.77.6",
     "swiper": "^11.1.4",
-    "tool-plugins": "^1.0.0",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
   },
@@ -77,7 +76,7 @@
   "description": "An Amazing Vue3 UI Components Library.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhaoyifan-admin/tool-plugins.git.git"
+    "url": "git+https://github.com/zhaoyifan-admin/rtdp-ui-plugins.git.git"
   },
   "keywords": [
     "Vue3",
@@ -92,7 +91,7 @@
   "author": "Tantanzi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zhaoyifan-admin/tool-plugins/issues"
+    "url": "https://github.com/zhaoyifan-admin/rtdp-ui-plugins/issues"
   },
   "homepage": "https://themusecatcher.github.io/vue-amazing-ui",
   "browserslist": [

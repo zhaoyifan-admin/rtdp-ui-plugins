@@ -33,7 +33,7 @@ import {
   formatNumber,
   toggleDark,
   useEventListener
-} from 'tool-plugins'
+} from 'rtdp-ui-plugins'
 <\/script>`
   }
 ])

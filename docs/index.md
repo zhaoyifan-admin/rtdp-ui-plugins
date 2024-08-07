@@ -17,10 +17,10 @@ hero:
       link: /utils/started
     - theme: alt
       text: View on GitHub
-      link: https://github.com/zhaoyifan-admin/tool-plugins
+      link: https://github.com/zhaoyifan-admin/rtdp-ui-plugins
     - theme: alt
       text: View on NPM
-      link: https://www.npmjs.com/package/tool-plugins
+      link: https://www.npmjs.com/package/rtdp-ui-plugins
 features:
   - icon: 🛠️
     title: 开发依赖

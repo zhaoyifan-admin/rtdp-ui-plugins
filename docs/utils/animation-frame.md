@@ -24,6 +24,6 @@ const cancelAnimationFrame = typeof window !== 'undefined' ? window.cancelAnimat
 
 ```vue
 <script setup lang="ts">
-import { requestAnimationFrame, cancelAnimationFrame } from 'tool-plugins'
+import { requestAnimationFrame, cancelAnimationFrame } from 'rtdp-ui-plugins'
 </script>
 ```

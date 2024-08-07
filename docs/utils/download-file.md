@@ -42,7 +42,7 @@ function downloadFile (url: string, name: string) {
 
 ```vue
 <script setup lang="ts">
-import { downloadFile } from 'tool-plugins'
+import { downloadFile } from 'rtdp-ui-plugins'
 
 donwloadFile('https://cdn.jsdelivr.net/gh/themusecatcher/resources@0.0.5/Markdown.pdf', 'Markdown')
 </script>

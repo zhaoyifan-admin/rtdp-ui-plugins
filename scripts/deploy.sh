@@ -18,7 +18,7 @@ git add .
 git commit -m 'deploy'
 
 # 部署到 https://<username>.github.io/<repo>
-git push -f https://github.com/zhaoyifan-admin/tool-plugins.git master:github-pages
+git push -f https://github.com/zhaoyifan-admin/rtdp-ui-plugins.git master:github-pages
 
 # 提交所有代码到github
 cd ../../../

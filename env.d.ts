@@ -7,7 +7,7 @@
 
 declare module '*.js'
 declare module '*.gz'
-declare module 'tool-plugins'
+declare module 'rtdp-ui-plugins'
 declare module 'naive-ui'
 declare module '*.json'
 declare module 'minimist'

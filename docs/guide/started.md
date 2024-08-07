@@ -8,19 +8,19 @@
 ::: code-group
 
 ```sh [npm]
-$ npm install tool-plugins
+$ npm install rtdp-ui-plugins
 ```
 
 ```sh [pnpm]
-$ pnpm add tool-plugins
+$ pnpm add rtdp-ui-plugins
 ```
 
 ```sh [yarn]
-$ yarn add tool-plugins
+$ yarn add rtdp-ui-plugins
 ```
 
 ```sh [bun]
-$ bun add tool-plugins
+$ bun add rtdp-ui-plugins
 ```
 
 :::
@@ -33,8 +33,8 @@ $ bun add tool-plugins
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import VueAmazingUI from 'tool-plugins'
-import 'tool-plugins/css'
+import VueAmazingUI from 'rtdp-ui-plugins'
+import 'rtdp-ui-plugins/css'
 
 const app = createApp(App)
 app.use(VueAmazingUI)
@@ -46,8 +46,8 @@ app.mount('#app')
 
 ```vue
 <script setup lang="ts">
-import { Button } from 'tool-plugins'
-import 'tool-plugins/css'
+import { Button } from 'rtdp-ui-plugins'
+import 'rtdp-ui-plugins/css'
 </script>
 
 <template>
@@ -72,6 +72,6 @@ import {
   formatNumber,
   toggleDark,
   useEventListener
-} from 'tool-plugins'
+} from 'rtdp-ui-plugins'
 </script>
 ```

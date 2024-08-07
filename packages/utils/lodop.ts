@@ -150,7 +150,7 @@ export function getLodop(oOBJECT: any, oEMBED: any) {
                     strAlertMessage = strLodop7Update_X86;
                 else if (isLinuxARM && LODOP.CVERSION < "7.0.7.5")
                     strAlertMessage = strLodop7Update_ARM;
-                else if (CLODOP.CVERSION < "6.6.0.2")
+                else if (LODOP.CVERSION < "6.6.0.2")
                     strAlertMessage = strCLodopUpdate;
                 if (strAlertMessage)
                     message.info(strAlertMessage + strInstallOK);
@@ -164,8 +164,8 @@ export function getLodop(oOBJECT: any, oEMBED: any) {
                     LODOP = oEMBED;
             } else if (!CreatedOKLodopObject) {
                 LODOP = document.createElement("object");
-                LODOP.setAttribute("width", 0);
-                LODOP.setAttribute("height", 0);
+                LODOP.setAttribute("width", '0');
+                LODOP.setAttribute("height", '0');
                 LODOP.setAttribute("style", "position:absolute;left:0px;top:-100px;width:0px;height:0px;");
                 if (isWinIE)
                     LODOP.setAttribute("classid", "clsid:2105C259-1E0C-4534-8141-A753534CB4CA");
