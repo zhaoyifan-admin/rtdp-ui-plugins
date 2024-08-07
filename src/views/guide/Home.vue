@@ -75,18 +75,7 @@ function onOpen () {
     </a-descriptions>
     <h2 class="mt30">常用工具函数：</h2>
     <ul class="m-list">
-      <li class="u-tip mb10 mt10"><a-tag color="geekblue">dateFormat</a-tag>: 简单易用的日期格式化函数！</li>
-      <li class="u-tip mb10"><a-tag color="geekblue">requestAnimationFrame</a-tag>: 针对不同浏览器进行兼容处理！</li>
-      <li class="u-tip mb10"><a-tag color="geekblue">cancelAnimationFrame</a-tag>: 针对不同浏览器进行兼容处理！</li>
-      <li class="u-tip mb10"><a-tag color="geekblue">rafTimeout</a-tag>: 使用 requestAnimationFrame 实现的定时器函数，等效替代 (setTimeout 和 setInterval)！</li>
-      <li class="u-tip mb10"><a-tag color="geekblue">cancelRaf</a-tag>: 用于取消 rafTimeout 函数！</li>
-      <li class="u-tip mb10"><a-tag color="geekblue">throttle</a-tag>: 节流函数！</li>
-      <li class="u-tip mb10"><a-tag color="geekblue">debounce</a-tag>: 防抖函数！</li>
-      <li class="u-tip mb10"><a-tag color="geekblue">add</a-tag>: 消除js加减精度问题的加法函数！</li>
-      <li class="u-tip mb10"><a-tag color="geekblue">downloadFile</a-tag>: 下载文件并自定义文件名，未传文件名时，从文件地址中自动获取文件名称！</li>
-      <li class="u-tip mb10"><a-tag color="geekblue">formatNumber</a-tag>: 数字格式化函数！</li>
-      <li class="u-tip mb10"><a-tag color="geekblue">toggleDark</a-tag>: 一键切换暗黑模式函数！</li>
-      <li class="u-tip mb10"><a-tag color="geekblue">useEventListener</a-tag>: 自动添加和清除 DOM 事件监听器函数！</li>
+<!--      <li class="u-tip mb10"><a-tag color="geekblue">useEventListener</a-tag>: 自动添加和清除 DOM 事件监听器函数！</li>-->
     </ul>
     <Collapse
       lang="vue3"
