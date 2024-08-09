@@ -2,7 +2,6 @@
 import { ref, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { routes } from '@/router'
-import { toggleDark } from '../../packages'
 
 const route = useRoute() // 返回当前路由地址，相当于在模板中使用$route
 // const router = useRouter() // 返回router实例，相当于在模板中使用$router
@@ -23,13 +22,6 @@ onMounted(() => {
 const callback = function () {
   themeDark.value = document.documentElement.classList.contains('dark')
 }
-function onThemeChange () {
-  toggleDark()
-}
-// function toggleDark () {
-//   // 如果 dark 类值已存在，则移除它，否则添加它
-//   document.documentElement.classList.toggle('dark')
-// }
 const menus = ref(routes[0].children)
 const current = ref([route.name])
 function onClick (e: any):void {
